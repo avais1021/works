@@ -39,7 +39,9 @@ const JavascriptProjects = () => {
                             {JsQtyCard.map((ele, idx) => {
                                 return ele.category === "js" ? <Card id={ele.id} key={idx} hrefUrl={ele.url} imagePath={ele.image} name={ele.projectName} /> : "";
                             })}
+                            <div className="card">
                             <button onClick={() => JsProjectFilterQty()}>{JsbtnValLatest ? 'View All' : 'Show Less'}</button>
+                            </div>
                             {/* <Card hrefUrl="https://avais1021.github.io/Content-Kingdom/" imagePath="purchase-book.png" name="Purchasing Books" />
                         <Card hrefUrl="https://avais1021.github.io/Find-Items/" imagePath="find-item.png" name="App For Medical" />
                         <Card hrefUrl="https://avais1021.github.io/income-management/" imagePath="monthly-budget.png" name="Monthly Budget Tracker" />

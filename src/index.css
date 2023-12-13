@@ -25,7 +25,7 @@ code {
   max-width: 1300px;
   width: 100%;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 20px;
   /* box-shadow: 1px 1px rgb(149, 171, 117); */
 }
 
@@ -101,6 +101,8 @@ body.modeChange {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
 }
 
 .nav h2 {
@@ -288,11 +290,14 @@ body.modeChange {
   box-shadow: inset 2px 2px 2px #5210fc, inset -2px -2px 2px #5210fc;
 }
 
-/* -------- */
-/* .card img{
-  display: none;
+@media screen and (max-width : 899.9px){
+  .projects .group{
+    justify-content: space-evenly;
+  }
 }
-.card h2{
-  display: none;
-} */
-/* ------- */
+@media screen and (max-width : 526.9px){
+  .nav .row{
+    justify-content: center;
+    
+  }
+}
