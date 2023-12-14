@@ -284,6 +284,20 @@ const projectData = [
         url : "https://avais1021.github.io/check-weather-REACT/",
         category : 'react',
     },
+    {
+        id : "",
+        projectName : "Todo List",
+        image : "react-todo-list.png",
+        url : "https://react-to-do-list-six-mu.vercel.app/",
+        category : 'react',
+    },
+    {
+        id : "",
+        projectName : "Search Funtionality",
+        image : "search-two.png",
+        url : "https://search-functionality-tau.vercel.app/",
+        category : 'react',
+    },
     
   
 ]
