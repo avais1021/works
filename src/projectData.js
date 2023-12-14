@@ -298,6 +298,13 @@ const projectData = [
         url : "https://search-functionality-tau.vercel.app/",
         category : 'react',
     },
+    {
+        id : "",
+        projectName : "Random Color",
+        image : "random-color.png",
+        url : "https://random-color-delta.vercel.app/",
+        category : 'react',
+    },
     
   
 ]
