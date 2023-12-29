@@ -12,9 +12,7 @@ const ReactProjects = () => {
                     <h2></h2>
                         <div className="group">
                             {projectData.map((ele , idx)=>{
-                                return ele.category === "react" ? <Card id={ele.id} key={idx} hrefUrl={ele.url} imagePath={ele.image} name={ele.projectName} /> : "";                            })}
-                            {/* <Card hrefUrl="https://react-ecommerce-nu-silk.vercel.app/" imagePath="ecomerce.png" name="E-comerce Website" />
-                            <Card hrefUrl="https://avais1021.github.io/check-weather-REACT/" imagePath="check_wheather.png" name="Check Wheather" /> */}
+                                return ele.category === "react" ? <Card id={ele.id} key={idx} hrefUrl={ele.url} sourceCode={ele.sourceCode} imagePath={ele.image} name={ele.projectName} /> : "";                            })}
                         </div>
                     </div>
                 </div>

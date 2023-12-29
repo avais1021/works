@@ -67,21 +67,12 @@ const HtmlProjects = () => {
                         <h2>Latest Project</h2>
                         <div className="group bottom_line">
                             {filterQtyCardLatest.map((ele, idx) => {
-                                return ele.category === "html" && ele.model === "Latest" ? <Card id={ele.id} key={idx} hrefUrl={ele.url} imagePath={ele.image} name={ele.projectName} /> : "";
+                                return ele.category === "html" && ele.model === "Latest" ? <Card id={ele.id} key={idx} hrefUrl={ele.url} sourceCode={ele.sourceCode} imagePath={ele.image} name={ele.projectName} /> : "";
                             })}
                             <div className="card">
                                 <button onClick={() => LatestProjectFilterQty()}>{btnValLatest ? 'View All' : 'Show Less'} </button>
                             </div>
-                            {/* <Card hrefUrl="https://avais1021.github.io/shape-your-career-public" imagePath="why-ultra-tech.png" name="Why Ultratech" /> */}
-                            {/* <Card hrefUrl="https://avais1021.github.io/Life-at-UltraTech/" imagePath="life-at-ultratech.png" name="Life At Ultratech" />
-                            <Card hrefUrl="https://avais1021.github.io/Jobs-at-UltraTech/" imagePath="Jobs-at-UltraTech.png" name="Jobs At Ultratech" />
-                            <Card hrefUrl="https://avais1021.github.io/Early-Career/" imagePath="Early-Career.png" name="Early Career" />
-                            <Card hrefUrl="https://avais1021.github.io/Ultratech_header_responsive/#" imagePath="ultra-header.png" name="Ultratech Header" />
-                            <Card hrefUrl="https://avais1021.github.io/ultratect-section-All-Responsive/" imagePath="Home-buildin-section.png" name="Ultratech Homebuilding" />
-                            <Card hrefUrl="https://avais1021.github.io/Future_Generali_section/" imagePath="Future_Generali.png" name="Future Generali Section" />
-                            <Card hrefUrl="https://avais1021.github.io/Weight-Loss-food/" imagePath="weight-lose.png" name="Weight Loss" />
-                            <Card hrefUrl="https://avais1021.github.io/healthy-food-All-Responsive/" imagePath="healthy-food.png" name="Healthy Food" />
-                            <Card hrefUrl="https://avais1021.github.io/Fifth-Task-All-responsive/" imagePath="zero-waste.png" name="Zero Waste" /> */}
+                        
                         </div>
                         <h2>Learning Time Project</h2>
                         <div className="group">
